@@ -1,0 +1,6 @@
+listen: ":4317"
+endpoint: "jaeger-collector.observability.svc.cluster.local:14317"
+buffer_dir: "/var/saf/buffer"
+max_buffer_mb: 512
+retry_interval: 30s
+flush_timeout: 10s
